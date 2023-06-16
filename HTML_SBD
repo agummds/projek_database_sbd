@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Rumah Sakit XYZ</title>
+    <title>Rumah Sakit Isekai</title>
     <style>
         /* Gaya CSS untuk mempercantik tampilan */
         body {
@@ -58,23 +58,23 @@
 </head>
 <body>
     <div class="container">
-        <h1>Rumah Sakit XYZ</h1>
+        <h1>Rumah Sakit Isekai</h1>
         
         <div class="menu">
             <ul>
-                <li><a href="#">Beranda</a></li>
-                <li><a href="#">Reservasi</a></li>
-                <li><a href="#">Pasien</a></li>
-                <li><a href="#">Poli</a></li>
-                <li><a href="#">Biaya</a></li>
-                <li><a href="#">Pegawai</a></li>
-                <li><a href="#">Antrian Poli</a></li>
-                <li><a href="#">Dokter</a></li>
+                <li><a href="WEBSITE.html">Beranda</a></li>
+                <li><a href="reservasi.html">Reservasi</a></li>
+                <li><a href="pasien.html">Pasien</a></li>
+                <li><a href="Poli.html">Poli</a></li>
+                <li><a href="biaya.html">Biaya</a></li>
+                <li><a href="pegawai.html">Pegawai</a></li>
+                <li><a href="antrian.html">Antrian Poli</a></li>
+                <li><a href="dokter.html">Dokter</a></li>
             </ul>
         </div>
-        
+         <img src="OIP.jpeg" height="50%" width="50%">
         <div class="content">
-            <h2>Selamat datang di Rumah Sakit XYZ</h2>
+            <h2>Selamat datang di Rumah Sakit Isekai</h2>
             <p>Silakan pilih menu di atas untuk melanjutkan.</p>
         </div>
     </div>
