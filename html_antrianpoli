@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rumah Isekai - Antrian Poli</title>
+    <style>
+        /* Gaya CSS untuk mempercantik tampilan */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+        
+        .menu {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        .menu li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        .menu li a:hover {
+            color: #cccccc;
+        }
+        
+        .content {
+            background-color: #ffffff;
+            padding: 25px;
+            margin-top: 25px;
+        }
+        
+        form {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="date"],
+        input[type="number"],
+        input[type="time"],
+        input[type="date"]
+        select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+        }
+        
+        input[type="submit"] {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px 19px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rumah Sakit Isekai</h1>
+        
+        <div class="menu">
+            <ul>
+                <li><a href="WEBSITE.html">Beranda</a></li>
+                <li><a href="reservasi.html">Reservasi</a></li>
+                <li><a href="pasien.html">Pasien</a></li>
+                <li><a href="Poli.html">Poli</a></li>
+                <li><a href="biaya.html">Biaya</a></li>
+                <li><a href="pegawai.html">Pegawai</a></li>
+                <li><a href="antrian.html">Antrian Poli</a></li>
+                <li><a href="dokter.html">Dokter</a></li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <h2>Antrian Poli</h2>
+            <form>
+                <label for="idReservasi">ID Reservasi:</label>
+                <input type="text" id="idReservasi" name="idReservasi" required>
+                
+                <label for="NoAntri">Nomor Antrian:</label>
+                <input type="text" id="NoAntri" name="NoAntri" required>
+                
+                <label for="Tanggal">Tanggal:</label>
+                <input type="date" id="Tanggal" name="Tanggal" required>
+                
+                <label for="Jam">Jam:</label>
+                <input type="time" id="Jam" name="Jam" required>
+
+                <input type="submit" value="Reservasi">
+           
