@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rumah Sakit XYZ - Reservasi</title>
+    <style>
+        /* Gaya CSS untuk mempercantik tampilan */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333333;
+        }
+        
+        .menu {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px;
+        }
+        
+        .menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        
+        .menu li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        
+        .menu li a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+        
+        .menu li a:hover {
+            color: #cccccc;
+        }
+        
+        .content {
+            background-color: #ffffff;
+            padding: 25px;
+            margin-top: 25px;
+        }
+        
+        form {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 6px;
+            font-weight: bold;
+        }
+        
+        input[type="text"],
+        input[type="date"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+        }
+        
+        input[type="submit"] {
+            background-color: #333333;
+            color: #ffffff;
+            padding: 10px 19px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Rumah Sakit XYZ</h1>
+        
+        <div class="menu">
+            <ul>
+                <li><a href="WEBSITE.html">Beranda</a></li>
+                <li><a href="reservasi.html">Reservasi</a></li>
+                <li><a href="pasien.html">Pasien</a></li>
+                <li><a href="#">Poli</a></li>
+                <li><a href="#">Biaya</a></li>
+                <li><a href="#">Pegawai</a></li>
+                <li><a href="#">Antrian Poli</a></li>
+                <li><a href="#">Dokter</a></li>
+            </ul>
+        </div>
+        
+        <div class="content">
+            <h2>Pasien</h2>
+            <form>
+                <label for="idReservasi">ID Reservasi:</label>
+                <input type="text" id="idReservasi" name="idReservasi" required>
+                
+                <label for="idRM">ID Rekam Medisa:</label>
+                <input type="text" id="idRM" name="idRM" required>
+                
+                <label for="Nama">Nama:</label>
+                <input type="text" id="Nama" name="Nama" required>
+                
+                <label for="KTP">Nomor KTP:</label>
+                <input type="number" id="KTP" name="KTP" required>
+
+                <input type="submit" value="Reservasi">
+           
